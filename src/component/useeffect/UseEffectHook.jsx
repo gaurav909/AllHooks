@@ -14,7 +14,7 @@ const UseEffectHook = () => {
             const fetchApi = await fetch('https://jsonplaceholder.typicode.com/todos')
             const result = await fetchApi.json()
 
-            console.table(result)
+            // console.table(result)
         }
         
         fetchData()
